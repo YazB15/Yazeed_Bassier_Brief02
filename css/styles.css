@@ -1,0 +1,405 @@
+/*--Homepage--*/
+
+.logo{
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding: auto;
+}
+
+header{
+	padding: 0;
+	background-color: black;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+nav{
+	margin: 0;
+	padding: 0; 
+	display: flex;
+	justify-content: center;
+}
+
+ul{
+	list-style: none;
+}
+
+.topnav{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+li{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	font-family: 'Metal Mania', cursive;
+	color: whitesmoke;
+	font-size: 20px;
+	padding: 15px;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: whitesmoke;
+	/*background-image: url("../img/grey.jpg");*/
+}
+
+.header-image{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+h2{
+	font-family: 'Metal Mania', cursive;
+	color: black;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	margin:auto;
+}
+
+.video{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	margin: auto;
+	height: 500px;
+	border-color: whitesmoke;
+}
+
+.button-1{
+	  display: inline-block;
+      padding: 12px 24px;
+      border-radius: 6px;
+      border: 0;
+      font-weight: bold;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase;
+      background: #615f8b;
+      color: #fff
+}
+
+.tour{
+	background-image: url("../img/tour.jpg");
+	width: 100%
+	opacity:15%;
+
+}
+
+.album{
+	display: flex;
+	justify-content: center;
+	width: 10px;
+	height: 500px;
+	padding: 35px;
+	margin: auto;
+}
+
+.Merch{
+	
+	background-color: black;
+	margin: 0;
+	width: 100%;
+	padding: 15px;
+}
+
+.merch-one{
+	display: flex;
+	justify-content: center;
+}
+
+
+.gallery{
+	background-color: black;
+	white-space: nowrap;
+}
+
+.image-one{
+	padding: 15px;
+	float: left;
+	width: 
+}
+
+
+.gif{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+
+
+.form{
+
+	background-image: url("../img/merch-logo.jpg"); 
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	height: 50px;
+}
+
+.closing-tag{
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Aboutpage--*/
+
+.band-pic{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	padding: 25px;
+	width: 100%;
+	height: 400%;
+}
+
+.about-band{
+	background-color: black;
+	margin: 28px;
+	padding: 15px;
+}
+
+p{
+	color: whitesmoke;
+	font-size: 18px;
+	padding: 35px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	border-style: 
+}
+
+.header-3{
+	padding: 15px;
+	height: 900px;
+	opacity: 15%;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	display: table-row-group;
+	white-space: nowrap;
+}
+
+.band-4{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Musicpage--*/
+
+
+.music-gallery{
+	display:grid;
+	grid-template-columns: repeat(3,33.333%);
+	grid-template-rows: 50vh 50vh;
+	
+}
+
+.cd-1 {
+	grid-area: 1/1/2/2;
+}
+
+.cd-2 {
+	grid-area: 2/2/3/2;
+	background-image: url(../img/cd-cover-three.jpg);
+
+}
+
+.cd-3{
+	grid-area: 1/3/2/4;
+	background-image: url(../img/cd-cover-four.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.cd-4{
+	grid-area: 2/1/3/2;
+	background-image: url(../img/cd-cover-five.jpg);
+}
+
+.cd-5{
+	grid-area: 2/3/3/4;
+	background-image: url(../img/cd-cover-one.jpg);
+
+}
+
+@media screen and (max-width: 1080px;){
+
+
+
+
+
+
+
+
+
+
+
+/*--Merchpage--*/
+.header-5{
+
+	padding: 25px;
+	text-align: center;
+}
+}
+.grid-item{
+
+	width: 800px;
+	height: 800px;
+	display: inline-block;
+}
+
+.merch-catalog{
+	padding:15px;
+	margin: auto;
+	background-color: black;
+	width: 100%;
+}
+
+
+
+.merch-cat-1{
+	display: flex;
+	justify-content: center;
+}
+
+.merch-cat-2{
+	display: flex;
+	justify-content: center;
+}
+
+.merch-gallery{
+	padding:25px;
+	margin: auto;
+	width: 50%;
+	white-space: nowrap;
+	display: inline-block;
+
+}
+
+.item-1.{
+	padding: 15px;
+	float: left;
+
+}
+
+.merch-section{
+	background-color: whitesmoke;
+	display:grid;
+	grid-template-columns: repeat(3,33.333%);
+	grid-template-rows: 50vh 50vh;
+	padding: 35px;
+}
+
+.merch-1{
+	grid-area: 1/1/2/2;
+	background-image: url(../img/shirt-one.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.merch-2{
+	grid-area: 1/3/2/4;
+	background-image: url(../img/shirt-two.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.merch-3{
+	grid-area: 1/2/1/2;
+	background-image: url(../img/shirt-three.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.merch-4{
+	grid-area: 2/1/3/2;
+	background-image: url(../img/shirt-four.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+.merch-5{
+	grid-area: 2/2/3/2;
+	background-image: url(../img/shirt-five.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.merch-6{
+	grid-area: 2/3/3/4;
+	background-image: url(../img/shirt-six.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*--media queries--*/
+
+@media (min-width:320px)  {
+@media (min-width:480px)  {
+@media (min-width:600px)  { 
+@media (min-width:801px)  { 
+@media (min-width:1025px) {  
+@media (min-width:1281px  {
+
+
+
+
